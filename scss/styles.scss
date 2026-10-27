@@ -1,0 +1,18 @@
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.743), rgba(0, 0, 0, 0.604)), url('../images/intro-bg.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services {
+    background: linear-gradient(rgba(0, 0, 0, 0.761), rgba(0, 0, 0, 0.757)), url('../images/bg.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}
